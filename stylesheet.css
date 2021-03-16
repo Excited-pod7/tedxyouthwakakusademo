@@ -83,6 +83,7 @@ div {
 }
 
 .wrapper {
+    overflow: hidden;
     text-align: center;
     color: white;
     padding: 4vw;
