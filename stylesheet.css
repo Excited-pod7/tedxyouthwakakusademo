@@ -219,7 +219,7 @@ a.btn span {
     }
 
     .btn{
-        max-width: 60%;
+        max-width: 50%;
         height: 10%;
         width: auto;
         margin: 3% auto;
@@ -231,7 +231,7 @@ a.btn span {
     }
 
     .tategaki h1{
-        font-size: 70%;
+        font-size: 100%;
     }
 }
 
