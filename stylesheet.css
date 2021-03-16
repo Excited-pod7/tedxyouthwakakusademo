@@ -1,6 +1,5 @@
 @charset "utf-8";
 html, body {
-    box-sizing: border-box;
     font-size: 40px;
     font-family: 'Lato', 'Open Sans', 'Noto Serif JP', sans-serif;
     font-weight: 300;
@@ -219,13 +218,19 @@ a.btn span {
     }
 
     .btn{
-        width: 40%;
+        max-width: 50%;
+        height: 10%;
+        width: auto;
         margin: 3% auto;
     }
 
     .logo{
         top: 40%;
         bottom: 40%;
+    }
+
+    .tategaki h1{
+        font-size: 100%;
     }
 }
 
@@ -237,6 +242,7 @@ a.btn span {
         font-size: 5.5vw;
     }
     .wrapper {
+        
         max-width: 50vw;
     }
 }
